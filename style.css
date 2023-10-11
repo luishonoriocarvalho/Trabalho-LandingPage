@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home-section {
+    background-image: url('img/abstract-blue-technology-wallpaper-fluid-background-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.home-logo {
+    align-items: center;
+    background-color: #e3f2fd;
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+}
+
+
+.home {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 400px;
+    gap: 30px 30px;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.home-title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.home-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    width: 100%;
+}
+
+#fullName,
+#email {
+    height: 2.5em;
+    margin-right: 2.5em;
+    width: 15em;
+}
+
+.home-btn {
+    width: 15em;
+    height: 2.5em;
+    border: none;
+    background-color: #20A8A3;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.home-btn:hover {
+    background-color: #198884;
+}
+
+
+.home-links {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8em;
+
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+#services-section {
+    padding: 2em 0;
+
+}
+
+.service-item {
+    padding: 0 2em;
+}
+
+.service-maintitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+.service-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.service-text {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95em;
+}
+
+
+
+#about-us {
+    align-items: center;
+    background-color: #2f5999;
+    gap: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 0;
+
+}
+
+.about-tittle {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+
+}
+
+.about-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.about-div {
+    width: 40em;
+}
+
+.about-img {
+    width: 35em;
+}
+
+#work {
+    align-items: center;
+    gap: 3em;
+    display: flex;
+    padding: 5em 0;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.work-tittle {
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.25em;
+
+}
+
+.work-text {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+
+
+
+
+#client-section {
+    background-image: url('img/abstract-blue-technology-wallpaper-fluid-background-concept-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.client-title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.client-text {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.client-text2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.client-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 1em;
+}
+
+.section-div {
+    margin: auto;
+    width: 50vw;
+}
+
+#contact {
+    padding: 10em 0;
+}
+
+.contact-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+
+.contact-title {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+.contact-btn {
+    width: 15em;
+    height: 2.5em;
+    border: none;
+    background-color: #20A8A3;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: #198884;
+}
+
+
+.footer {
+    background-color: #e3f2fd;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5em;
+}
+
+
+@media (max-width: 1340px) {
+
+
+    .about-tittle {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2.5em;
+
+    }
+
+    .about-text {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .about-div {
+        width: 30em;
+    }
+
+    .about-img {
+        width: 30em;
+    }
+
+
+    .video {
+        width: 540px;
+        height: 310px;
+    }
+
+    .work-tittle {
+        font-size: 2.5em;
+    }
+
+    .work-text {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1190px) {
+    #about-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-div {
+        width: 40em;
+    }
+
+    .about-img {
+        width: 35em;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column-reverse;
+
+
+    }
+}
+
+@media (max-width: 900px) {
+
+    .home-title {
+        font-size: 3em;
+    }
+
+    .home-text {
+        font-size: 1.1em;
+
+    }
+
+    .home-inputs {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em;
+    }
+
+    #fullName,
+    #email {
+        margin-right: 0;
+        width: 30em;
+    }
+
+    .home-btn {
+        width: 30em;
+    }
+
+    .link {
+        font-size: 1.2em;
+
+    }
+
+    .client-icon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .contact-inputs {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em;
+
+    }
+
+    .contact-title {
+        font-size: 2em;
+
+    }
+
+    .contact-text {
+        font-size: 1em;
+    }
+
+    .contact-btn {
+        width: 30em;
+    }
+}
+
+@media (max-width: 755px) {
+    .home-links {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.15em;
+
+    }
+
+    .link {
+        font-size: 1em;
+        margin-bottom: 0.25em;
+
+    }
+
+    .work-tittle {
+        font-size: 2em;
+    }
+
+    .about-div {
+        width: 30em;
+    }
+
+    .about-img {
+        width: 25em;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .video {
+        width: 400px;
+        height: 300px;
+    }
+
+    .client-icon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .client-title {
+        font-size: 2em;
+    }
+
+    .client-text {
+
+        font-size: 1em;
+    }
+
+    #fullName,
+    #email {
+
+        width: 20em;
+    }
+
+    .home-btn {
+        width: 20em;
+    }
+
+    .contact-btn {
+        width: 20em;
+    }
+
+    .about-div {
+        width: 25em;
+    }
+
+    .about-img {
+        width: 20em;
+    }
+
+
+
+    .home-title {
+        font-size: 2em;
+
+    }
+
+    .service-maintitle {
+
+        font-size: 2em;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+
+    #fullName,
+    #email {
+
+        width: 15em;
+    }
+
+    .home-btn {
+        width: 15em;
+    }
+
+    .contact-btn {
+        width: 15em;
+    }
+
+    .service-maintitle {
+
+        font-size: 1.75em;
+    }
+
+    .service-title {
+        font-size: 1.2em;
+    }
+
+    .about-div {
+        width: 15em;
+    }
+
+    .about-img {
+        width: 15em;
+    }
+
+    .about-tittle {
+
+        font-size: 1.75em;
+
+    }
+
+    .about-text {
+
+        font-size: 0.9em;
+
+    }
+
+    .work-tittle {
+
+        font-size: 1.75em;
+
+    }
+
+    .work-text {
+
+        font-size: 0.8em;
+
+    }
+
+    .video {
+        width: 320px;
+        height: 250px;
+    }
+
+}
